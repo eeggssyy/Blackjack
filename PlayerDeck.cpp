@@ -5,7 +5,7 @@
 */
 
 #include "PlayerDeck.h"
-#pragma warning(disable:)
+
 void PlayerDeck::clearPDeck(vector<Card>& cards) {
     int count = playerCards.size();
     for (int i = 0; i < count; i++) {
